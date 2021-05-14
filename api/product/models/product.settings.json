@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "productName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "cat": {
+      "type": "boolean"
+    },
+    "dog": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "feed",
+        "toys",
+        "clothes",
+        "medications"
+      ]
+    }
+  }
+}

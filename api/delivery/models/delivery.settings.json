@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deliveries",
+  "info": {
+    "name": "Delivery"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "deliver": {
+      "type": "json"
+    }
+  }
+}
